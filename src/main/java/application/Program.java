@@ -24,6 +24,12 @@ public class Program {
         
         Product product = new Product(name, price);
         
+        product.setName("Computer");
+        System.out.println("Updated name: " + product.getName());
+        
+        product.setPrice(950.00);
+        System.out.println("Updated price: " + product.getPrice());
+                
         System.out.print("Product data: " + product);
         
         System.out.printf("%n%n");
@@ -41,6 +47,5 @@ public class Program {
         System.out.print("Updated data: " + product);
         
         sc.close();
-    
     }    
 }
